@@ -8,5 +8,5 @@ deobf.js:
   First attempt to deobfuscate
 
 
-format.js
+format.js:
   Best attempt to deobfuscate, has some code removed.
