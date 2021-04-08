@@ -1,6 +1,7 @@
 package tudbut;
 
 import de.tudbut.tools.Tools;
+import tudbut.logger.Logger;
 import tudbut.net.http.HTTPHeader;
 import tudbut.net.http.HTTPRequest;
 import tudbut.net.http.HTTPRequestType;
@@ -16,6 +17,9 @@ import java.util.Map;
 public class ZeroX539_K_Spammer {
     
     public static void main(String[] argStrings) throws IOException {
+        Logger logger = new Logger("0x539/k Token Spammer");
+        System.setOut(logger.infoAsStream());
+        
         Map<String, String> args = ArgumentParser.parseDefault(argStrings);
         int delay = Integer.parseInt(args.getOrDefault("d", "2000"));
         int amount = Integer.parseInt(args.getOrDefault("a", "500"));

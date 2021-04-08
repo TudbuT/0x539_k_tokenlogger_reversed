@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" build-on-make="true" name="java:jar">
-    <output-path>$USER_HOME$/</output-path>
+    <output-path>$PROJECT_DIR$/java</output-path>
     <root id="archive" name="0x539_k_spammer.jar">
       <element id="module-output" name="java" />
       <element id="extracted-dir" path="$USER_HOME$/Dokumente/java/TuddyLIB.jar" path-in-jar="/" />
