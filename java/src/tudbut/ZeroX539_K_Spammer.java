@@ -10,6 +10,9 @@ import tudbut.tools.Lock;
 import java.io.IOException;
 import java.util.Map;
 
+/***
+ * An efficient spammer for fake tokens to run in the background
+ */
 public class ZeroX539_K_Spammer {
     
     public static void main(String[] argStrings) throws IOException {
